@@ -28,7 +28,7 @@ Ingresar a la base de datos y Crear tabla para usuarios:
 
 CREATE TABLE `users-crud`.`usuarios` (`id` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(20) NOT NULL , `email` VARCHAR(40) NOT NULL , `edad` INT NOT NULL , `sexo` VARCHAR(20) NOT NULL , `direccion` VARCHAR(20) NOT NULL , `fecha_creacion`VARCHAR(20) NOT NULL , `fecha_modificacion` VARCHAR(20) NOT NULL, `usuario` VARCHAR(20) NOT NULL,  `clave` VARCHAR(20) NOT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
-La carpeta del proyecto debe ser colocada en la carpeta htdocs de Xammp, si la instalacion se realizó por defecto, deberá encontrarse en la siguiente ruta:
+Crer una carpeta con el nombre prueba-CRUD, esta debe ser colocada en la carpeta htdocs de Xammp, si la instalacion se realizó por defecto, deberá encontrarse en la siguiente ruta:
 
 C:\xampp\htdocs
 
